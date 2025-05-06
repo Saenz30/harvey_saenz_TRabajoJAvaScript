@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinergia-galeria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="shortcut icon" href="../imagenes/logo.jpg" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="../JS/galeria.js"></script>
+</head>
+
+<body>
+
+  <header class="bg-dark fixed-top py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-3">
+            <img src="../imagenes/logo.jpg" alt="Logo Sinergia" class="logo" height="480" width="372" />
+            <div class="text-white">
+                <h1>Grupo Sinergia</h1>
+                <h2>Limpieza profesional</h2>
+            </div>
+        </div>
+        <nav class="d-flex gap-4">
+            <a href="../index.html" class="text-white text-decoration-none">SERVICIOS</a>
+            <a href="../views/galeria.html" class="text-white text-decoration-none">GALERÍA</a>
+            <a href="../views/presupuesto.html" class="text-white text-decoration-none">PRESUPUESTOS</a>
+            <a href="../views/contacto.html" class="text-white text-decoration-none">CONTACTO</a>
+        </nav>
+    </div>
+</header>
+
+  <div class="container mt-5">
+    <h1 class="text-center titulo-servicio   mb-4">Nuestros Servicios</h1>
+
+    <div class="row">
+      <!-- Imagen 1 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="../imagenes/portada.jpg" class="card-img-top img-servicios" alt="Imagen de portada" height="480"
+            width="620">
+        </div>
+      </div>
+
+      <!-- Imagen 2 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="../imagenes/foto1.jpg" class="card-img-top img-servicios" alt="Imagen cocina" height="480"
+            width="640">
+          <div class="card-body">
+            <p class="card-text">Cada rincón impecable con productos ecológicos y seguros.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen 3 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="../imagenes/foto2.jpg" class="card-img-top img-servicios" alt="Imagen antes y despues" height="480"
+            width="853">
+          <div class="card-body">
+            <p class="card-text"> Transformación completa: antes y después de una limpieza profesional.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen 4 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="../imagenes/foto3.jpg" class="card-img-top img-servicios" alt="Imagen de un salon" height="480"
+            width="640">
+          <div class="card-body">
+            <p class="card-text">Orden, brillo y frescura en cada ambiente intervenido. </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen 5 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="../imagenes/foto4.jpg" class="card-img-top img-servicios" alt="Imagen de salon reluciente"
+            height="480" width="640">
+          <div class="card-body">
+            <p class="card-text">Espacios relucientes gracias a una limpieza profunda y detallada.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen 6 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="../imagenes/foto5.jpg" class="card-img-top img-servicios" alt="Imagen limpieza cocina" height="480"
+            width="853">
+          <div class="card-body">
+            <p class="card-text">Resultados visibles: limpieza efectiva que marca la diferencia.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Video -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card">
+          <video class="card-img-top img-servicios" controls poster="../imagenes/fondo.jpg">
+            <source src="../imagenes/video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+          <div class="card-body">
+            <p class="card-text"> Proceso de limpieza post-obra que elimina residuos de construcción, polvo y restos de
+              materiales para un acabado perfecto y listo para habitar.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--Footer-->
+
+  <footer class="bg-dark text-white text-center text-lg-start mt-5 position-relative">
+    <div class="container p-4">
+      <div class="row">
+
+        <div class="col-lg-8 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Nuestra Empresa</h5>
+          <p>
+            Ofrecemos soluciones de calidad adaptadas a tus necesidades. Contáctanos para más información o cotizaciones
+            personalizadas.
+          </p>
+        </div>
+
+        <!-- Redes -->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-lg-end">
+          <h5 class="text-uppercase">Síguenos</h5>
+          <div class="mb-2 d-inline-block logo-webel">
+            <a href="https://dl.appwebel.com/d3Din8U7FS7Tz47TA"><img src="../imagenes/webel.jpg" alt="Logo Webel"
+                width="30" height="30" class="img-fluid rounded-circle"> </a>
+          </div>
+
+
+          <a href="https://www.instagram.com/sinergia_limpia/" class="text-white me-3">
+            <i class="bi bi-instagram" style="font-size: 30px;"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center p-3 bg-secondary">
+      © 2025 Todos los derechos reservados.
+    </div>
+
+    <!-- Botón volver arriba -->
+    <button onclick="scrollToTop()" class="btn btn-primary position-absolute end-0 bottom-0 m-4 rounded-circle"
+      title="Volver arriba">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+  </footer>
+
+ 
+
+
+</body>
+
+</html>
